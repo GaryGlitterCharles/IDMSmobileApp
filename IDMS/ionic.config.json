@@ -1,0 +1,7 @@
+{
+  "name": "IDMS",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

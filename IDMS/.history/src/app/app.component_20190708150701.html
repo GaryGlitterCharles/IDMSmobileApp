@@ -1,0 +1,32 @@
+
+<style>
+  ion-content,ion-list {
+  --background: none;
+  background-image: url("/assets/img/sidenavF.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<ion-app>
+  <ion-split-pane>
+    
+    <ion-menu type="overlay">
+  
+      <ion-content >
+        
+        <ion-list >
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" >
+              <ion-icon slot="start" [name]=""></ion-icon>
+              <ion-label>
+               werwer
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

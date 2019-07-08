@@ -1,0 +1,111 @@
+ion-content {
+  --background: none;
+  background-image: url("/assets/img/loginF.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 390px) {
+  .inputBox {
+    --color: white;
+    width: 281px;
+    margin-left: 38px;
+    margin-top: 316px;
+  }
+  .inputBox2 {
+    --color: white;
+    width: 281px;
+    margin-left: 38px;
+    margin-top: 20px;
+  }
+  .butcolor{
+    --color :white;
+    margin-left: 138px;
+    margin-top: 51px;
+}
+}
+@media (min-width: 400px) {
+  .inputBox {
+    --color: white;
+    width: 281px;
+    margin-top: 370px;
+    margin-left: 59px;
+  }
+  .inputBox2 {
+    --color: white;
+    width: 281px;
+    margin-top: 26px;
+    margin-left: 59px;
+  }
+  .butcolor{
+    --color :white;
+    margin-top: 50px;
+    margin-left: 153px;
+
+}
+}
+@media (min-width: 600px) {
+  .inputBox {
+    --color: white;
+    width: 281px;
+    margin-top: 511px;
+    margin-left: 148px;
+  }
+  .inputBox2 {
+    --color: white;
+    margin-top: 41px;
+    margin-left: 148px;
+  }
+}
+
+@media (max-width: 320px) {
+  .inputBox {
+    --color: white;
+    width: 250px;
+    margin-left: 26px;
+    margin-top: 282px;
+  }
+  .inputBox2 {
+    --color: white;
+    width: 250px;
+    margin-left: 26px;
+  }
+  .butcolor{
+    --color :white;
+    margin-left: 116px;
+    margin-top: 41px;
+
+}
+}
+
+@media (min-height: 800px) {
+  .inputBox {
+    --color: white;
+    width: 281px;
+    margin-top: 398px;
+  }
+  .inputBox2 {
+    --color: white;
+    width: 281px;
+    margin-top: 38px;
+  }
+}
+@media (min-width: 750px) {
+  @media (min-height: 1024px) {
+    .inputBox {
+      --color: white;
+      width: 281px;
+      margin-top: 593px;
+      margin-left: 232px;
+    }
+    .inputBox2 {
+      --color: white;
+      width: 281px;
+      margin-left: 232px;
+    }
+    .butcolor{
+        
+    }
+  }
+}

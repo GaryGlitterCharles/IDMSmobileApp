@@ -1,0 +1,61 @@
+<style>
+  ion-content {
+    --background: none;
+    background-image: url("/assets/img/sidenavF.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  ion-toolbar {
+    --background: none;
+    background-image: url("/assets/img/sidenavFH.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  ion-toolbar {
+    height: 89px;
+
+  }
+
+  p {
+    margin-top: 35px;
+  }
+
+  ion-toolbar {
+    color: white;
+  }
+  ion-label{
+    font-size: 
+  }
+</style>
+<ion-app>
+  <ion-split-pane>
+
+    <ion-menu type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <p class="ion-text-center">Hello, Gary Glitter Chrales</p>
+
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+
+        <ion-list style="background-color: transparent;">
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+            <ion-item color="transparent" [routerDirection]="'root'" [routerLink]="[p.url]">
+              <ion-icon slot="start" [name]=""></ion-icon>
+              <ion-label>
+               {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

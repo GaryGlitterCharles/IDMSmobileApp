@@ -1,0 +1,10 @@
+ion-content{
+    --background: none;
+    background-image: url('/assets/img/loginF.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+:host(.ion-color) .item-inner, :host(.ion-color) .item-native {
+    border-color: white
+}
